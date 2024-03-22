@@ -18,3 +18,20 @@ print(name[5])
 print("lets use for loop \n")
 for character in aloo:
     print(character)
+
+# String Slicing
+names = "Srijan,lala,Shubham,Harry,Asmita"
+print(names[0:6])
+print(names[:6])  # automatically puts 0
+print(len(names))
+
+Fruits = "Mango"
+Len1 = len(Fruits)
+print("Apple is a", Len1, "letter word")
+print(Fruits[0:5])  # Include 0 but excludes data from 5
+print(Fruits[:5])   # automatically puts 0
+print(Fruits[1:5])  # Include 1 but excludes data from 5
+print(Fruits[0:-3])  # Python automatically puts len(Fruits) in between [0: and -3] like in the code below
+print(Fruits[0:len(Fruits)-3])
+print(Fruits[-3:-1])
+print(Fruits[-4:-2])
