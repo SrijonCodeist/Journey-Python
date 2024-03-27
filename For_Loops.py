@@ -22,3 +22,35 @@ for k in range(1, 5):
 
 for k in range(1, 5, 1):
     print(k)
+
+# While loop
+i = int(input("Enter any number: "))  # Incremental while loop
+while i <= 3:
+    i = i + 1
+    print(i)
+print("Done with the loop")
+
+count = 5
+while count > 0:  # Decremental while loop
+    print(count)
+    count = count - 1
+
+count = 5
+while count > 0:
+    print(count)
+    count = count + 1  # Infinite while loop DO NOT RUN JUST FOR KNOWLEDGE
+
+# Else with while loop
+x = 10
+while x > 0:
+    print(x)
+    x = x - 1
+else:
+    print("Counter is 0")
+
+# Emulating do while loop in python
+while True:
+    number = int(input("Enter any Positive number: "))
+    print(number)
+    if not number > 0:
+        break
