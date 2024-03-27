@@ -1,3 +1,4 @@
+# All types of Loops shown in example
 # For Loops
 name = 'Srijan'
 for i in name:
